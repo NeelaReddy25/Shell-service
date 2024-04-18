@@ -1,4 +1,4 @@
-# Shell Script
+# Shell Service
 
 **Steps:**
 * create repo in Github
