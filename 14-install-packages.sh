@@ -39,4 +39,3 @@ do
         VALIDATE $? "Installation of $i"
     fi    
 done   
-
