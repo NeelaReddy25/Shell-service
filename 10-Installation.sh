@@ -1,3 +1,3 @@
-#1/bin/bash
+#!/bin/bash
 
 dnf install mysql -y
