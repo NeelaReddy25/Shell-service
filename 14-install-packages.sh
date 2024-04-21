@@ -22,15 +22,15 @@ VALIDATE(){
 if [ $USERID -ne 0 ]
 then
     echo "Please run this script with root access."
-    exit 1 #manually exit if error comes
+    exit 1 # manually exit if error comes.
 else
-    echo "You are super user."
+    echo "you are super user."
 fi
 
 for i in $@
 do 
-  echo "Packages to install: $i"
-  dnf list intalled $i &>>$LOGFILE
+  echo "Package to install: $i"
+  dnf list installed $i &>>$LOGFILE
   if [ $? -eq 0 ]
   then
       echo -e "$i already installed...$Y SKIPPING $N"  
