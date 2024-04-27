@@ -2,8 +2,6 @@
 
 SOURCE_DIRECTORY=/tmp/app-logs
 
-mkdir -d "$SOURCE_DIRECTORY"
-
 R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
