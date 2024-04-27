@@ -19,7 +19,7 @@ else
 
 fi
 
-dnf install mysql -y &>>$LOGFILE
-dnf install git -y &>>$LOGFILE
+dnf install mysql -y 
+dnf install git -y 
 
 echo "is script proceeding?"
