@@ -13,4 +13,8 @@ then
 else
     echo -e "$R Please make sure $SOURCE_DIRECTORY exists $N"
     exit 1
-fi        
+fi    
+
+FILES=$(find $SOURCE_DIRECTORY -name "*.log" -mtime +14)
+
+echo "Files to delete: $FILES"
